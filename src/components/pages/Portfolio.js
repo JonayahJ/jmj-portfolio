@@ -2,7 +2,10 @@ import React from "react";
 
 const Portfolio = () => (
   <div>
+    {/* Title */}
     <h1>Portfolio</h1>
+
+    {/* Brief Description */}
     <p>
       Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
       turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
@@ -15,6 +18,9 @@ const Portfolio = () => (
       amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
       iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
     </p>
+
+    {/* Portfolio Cards */}
+    
   </div>
 );
 

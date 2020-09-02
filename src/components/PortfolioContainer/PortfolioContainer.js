@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
+import Wrapper from "../Wrapper";
 import "./style.css";
 
 class Works extends Component {
@@ -30,12 +31,13 @@ class Works extends Component {
   render() {
     return (
       <div>
+        {/* Top Navigation Bar */}
         <TopNav
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
-        {this.renderPage()}
-
+    
+      <Wrapper>
         {/* "Hero" Image */}
         <section className="bgimage">
           <div className="cover">
@@ -45,7 +47,11 @@ class Works extends Component {
           </div>
         </section>
 
+        {/* Render page content */}
+        {this.renderPage()}
         
+        {/* Footer */}
+      </Wrapper>
       </div>
     );
   }
