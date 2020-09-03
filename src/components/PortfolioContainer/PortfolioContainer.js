@@ -50,6 +50,7 @@ class Works extends Component {
         {/* Render page content */}
         {this.renderPage()}
         </div>
+        
         {/* Footer */}
         <Footer />
       </div>
