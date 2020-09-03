@@ -19,7 +19,7 @@ const Home = () => (
           <p className="greeting-text-p subTitle">
             I'm an aspiring Front-End Web Developer with experience building websites and web applications with HTML, CSS, JavaScript, React, and Node.  I've used everything from Squarespace to Heroku, and look forward to building more user experiences online.
           </p> 
-          <p className="greeting-text-p subTitle">
+          <p className="greeting-text-pBold subTitle">
             I love working on cool new projects and learning new coding languages.
           </p>
         </div>

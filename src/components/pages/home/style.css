@@ -11,7 +11,7 @@
     margin-top: 2rem;
   }
   
-  .gretting-main {
+  .greeting-main {
     width: 90%;
     padding: 20px 10px;
     margin: 0px auto;
@@ -37,6 +37,12 @@
     line-height: 40px;
     font-weight: 200;
   }
+
+  .greeting-text-pBold {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+  }
   
   .greeting-image-div > img {
     max-width: 100%;
@@ -52,6 +58,10 @@
     .greeting-text-p {
       font-size: 20px;
     }
+    .greeting-text-pBold {
+        font-size: 20px;
+        font-weight: 400;
+      }
   }
   @media (max-width: 768px) {
     .greeting-text {
@@ -63,6 +73,12 @@
       line-height: normal;
       text-align: center;
     }
+    .greeting-text-pBold {
+        font-size: 16px;
+        line-height: normal;
+        text-align: center;
+        font-weight: 400;
+      }
     .greeting-main {
       display: block;
     }

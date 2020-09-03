@@ -1,0 +1,43 @@
+  .contact-container {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+  }
+  
+  /* .contact-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    display: flex;
+  } */
+  
+  .contact-image-div > img {
+    max-width: 100%;
+    height: auto;
+    /* float: right; */
+  }
+
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .contact-text {
+      font-size: 50px;
+    }
+    .contact-text-p {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .contact-text {
+      font-size: 30px;
+      text-align: center;
+    }
+    .contact-text-p {
+      font-size: 16px;
+      line-height: normal;
+    }
+    .contact-main {
+      display: block;
+    }
+  }
+  

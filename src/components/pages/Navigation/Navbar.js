@@ -54,15 +54,15 @@ function TopNav(props) {
                 <Nav>
                     {/* LinkedIn */}
                     <Nav.Link href="https://www.linkedin.com/in/jonayahmjackson/">
-                        <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+                        <FontAwesomeIcon icon={["fab", "linkedin-in"]} size="2x"/>
                     </Nav.Link>
                     {/* Twitter */}
                     <Nav.Link href="https://twitter.com/ThinkHalcyonLLC">
-                        <FontAwesomeIcon icon={["fab", "twitter"]} />
+                        <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>
                     </Nav.Link>
                     {/* Github */}
                     <Nav.Link href="https://github.com/JonayahJ">
-                        <FontAwesomeIcon icon={["fab", "github"]} />
+                        <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
                     </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
