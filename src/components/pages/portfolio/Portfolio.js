@@ -1,26 +1,56 @@
 import React from "react";
+import Card from "react-bootstrap/Card"
+import CardDeck from "react-bootstrap/CardDeck"
+import "./style.css"
 
 const Portfolio = () => (
-  <div>
+  <div className="portfolio-container">
     {/* Title */}
-    <h1>Portfolio</h1>
-
-    {/* Brief Description */}
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
+    <h1>Projects</h1>
+    <br></br>
 
     {/* Portfolio Cards */}
-    
+    <div>
+      <CardDeck>
+        <Card>
+          <Card.Img variant="top" alt="NQR App Screenshot" src={require("../../../assets/images/CR-Graphic-01.png")} />
+          <Card.Body>
+            <Card.Title>Neighborhood Quaratine Resources App</Card.Title>
+            <Card.Text>
+            In order to keep our vulnerable neighbors safe and taken care of, our website will help residents locate the nearest Covid-19 testing sites, free meals locations, and a COVID-19 related picture to remind them of the current pandemic.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Project Date</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" alt="Snaps Coffee Shop" src={require("../../../assets/images/SnapsCoffeeShop.png")} />
+          <Card.Body>
+            <Card.Title>Snaps Coffee Shop App</Card.Title>
+            <Card.Text>
+            An app that brings an experience of a real coffee shop online. While you choose your drinks and delicious pastries and even while waiting for your order, slow down for a minute and enjoy the music.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Project Date</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" alt="NQR App Screenshot" src={require("../../../assets/images/NQR-App-Screenshot.jpg")} />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Project Date</small>
+          </Card.Footer>
+        </Card>
+      </CardDeck>
+    </div>
   </div>
 );
 

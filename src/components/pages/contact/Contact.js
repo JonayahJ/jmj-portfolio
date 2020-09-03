@@ -10,12 +10,13 @@ const Contact = () => (
     <div className="row">
       {/* Contact Form */}
       <div className="contact-form-div col-6">
+        <br></br>
         <Form />
       </div>
 
       {/* Image Div */}
       <div className="contact-image-div col-6">
-        <img alt="Woman standing in front of large cellphone" src={require("../../../assets/images/Black-Woman-Using-Mobile-Phone.svg")} height="75%"></img>
+        <img alt="Woman standing in front of large cellphone" src={require("../../../assets/images/Black-Woman-Using-Mobile-Phone.svg")} height="60%"></img>
       </div>
     </div>
   </div>
