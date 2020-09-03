@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import TopNav from "../Navbar";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Portfolio from "../pages/Portfolio";
-import Contact from "../pages/Contact";
-import Wrapper from "../Wrapper";
+import TopNav from "../pages/Navigation/Navbar";
+import Home from "../pages/home/Home";
+import About from "../pages/about/About";
+import Portfolio from "../pages/portfolio/Portfolio";
+import Contact from "../pages/contact/Contact";
 import "./style.css";
 
 class Works extends Component {
@@ -37,7 +36,6 @@ class Works extends Component {
           handlePageChange={this.handlePageChange}
         />
     
-      <Wrapper>
         {/* "Hero" Image */}
         <section className="bgimage">
           <div className="cover">
@@ -51,7 +49,6 @@ class Works extends Component {
         {this.renderPage()}
         
         {/* Footer */}
-      </Wrapper>
       </div>
     );
   }

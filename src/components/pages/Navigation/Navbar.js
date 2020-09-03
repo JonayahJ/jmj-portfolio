@@ -1,20 +1,20 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import "./FontAwesomeIcons/index"
+import "../../FontAwesomeIcons/index"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopNav(props) {
     return (
         <div>
             {/* CollapseOnSelect creates the hamburger function */}
-            <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+            <Navbar collapseOnSelect expand="lg" >
                 {/* Brand Link */}
                 <Navbar.Brand 
                     href="#home"
                     onClick={() => props.handlePageChange("Home")}
                     className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-                >Hi, I'm Jo!</Navbar.Brand>
+                >Jonayah Marie Jackson</Navbar.Brand>
                 
                 {/* Responsive features */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
