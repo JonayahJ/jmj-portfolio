@@ -4,6 +4,7 @@ import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
+import Footer from "../footer/Footer"
 import "./style.css";
 
 class Works extends Component {
@@ -29,7 +30,8 @@ class Works extends Component {
 
   render() {
     return (
-      <div>
+      <div className="page-container">
+      <div className="content-wrap">
         {/* Top Navigation Bar */}
         <TopNav
           currentPage={this.state.currentPage}
@@ -47,8 +49,9 @@ class Works extends Component {
 
         {/* Render page content */}
         {this.renderPage()}
-        
+        </div>
         {/* Footer */}
+        <Footer />
       </div>
     );
   }

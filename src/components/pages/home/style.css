@@ -29,11 +29,13 @@
   .greeting-text {
     font-size: 70px;
     line-height: 1.1;
+    font-family: sans-serif;
   }
   
   .greeting-text-p {
     font-size: 30px;
     line-height: 40px;
+    font-weight: 200;
   }
   
   .greeting-image-div > img {
@@ -52,9 +54,6 @@
     }
   }
   @media (max-width: 768px) {
-    .button-greeting-div {
-      justify-content: space-around;
-    }
     .greeting-text {
       font-size: 30px;
       text-align: center;

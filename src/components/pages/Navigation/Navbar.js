@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../../FontAwesomeIcons/index"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./style.css"
 
 function TopNav(props) {
     return (
@@ -11,6 +12,7 @@ function TopNav(props) {
             <Navbar collapseOnSelect expand="lg" >
                 {/* Brand Link */}
                 <Navbar.Brand 
+                    id="jmj"
                     href="#home"
                     onClick={() => props.handlePageChange("Home")}
                     className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}

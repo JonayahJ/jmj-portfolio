@@ -1,0 +1,13 @@
+  /* body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  } */
+ 
+  /* Media Query */
+  @media (max-width: 1380px) {
+    html,
+    body {
+      font-size: 16px;
+      line-height: normal;
+    }
+  }
